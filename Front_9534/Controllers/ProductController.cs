@@ -12,7 +12,7 @@ namespace Front_9534.Controllers
     public class ProductController : Controller
     {
         //Hosted web API REST Service base url
-        string Baseurl = "https://localhost:44359/";
+        string Baseurl = "http://ec2-34-240-4-65.eu-west-1.compute.amazonaws.com/";
         // GET: Product
         public async Task<ActionResult> Index()
         {
